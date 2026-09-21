@@ -178,7 +178,7 @@ const clamp = (v: number) => Math.min(1, Math.max(0, v));
 function Styles() {
   return (
     <style>{`
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
       .icsa-wrap *, .icsa-wrap *::before, .icsa-wrap *::after {
         box-sizing: border-box; margin: 0; padding: 0;
@@ -191,7 +191,7 @@ function Styles() {
       .icsa-wrap {
         width: 100%; height: 100vh;
         overflow-y: scroll; overflow-x: clip;
-        font-family: Inter, sans-serif;
+        font-family: 'Poppins', sans-serif;
         background: #fff;
       }
 
@@ -276,7 +276,7 @@ function Styles() {
       .icsa-btn {
         background: #ff3e00; color: #fff;
         padding: 10px 28px; border-radius: 8px; border: none;
-        cursor: pointer; font-family: Inter, sans-serif;
+        cursor: pointer; font-family: 'Poppins', sans-serif;
         font-size: 1rem; font-weight: 600; letter-spacing: .01em;
         transition: opacity .2s ease, transform .2s ease;
       }
